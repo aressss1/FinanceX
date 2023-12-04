@@ -2,12 +2,12 @@ import { MoveRight } from 'lucide-react';
 
 const Navbar = () => {
     return ( 
-        <div className="h-6 bg-black flex flex-row justify-between items-center mx-auto  " >
+        <div className="h-16 bg-black flex flex-row justify-between items-center px-4 " >
             <div className="text-white text-2xl font-bold font-['Satoshi']">
                 FinanceX
             </div>
-            <div className="text-white text-opacity-70 hover:text-opacity-100 text-base font-normal font-['Rubik'] flex flex-row gap-5 ">
-                <ul>
+            <div>
+                <ul className="text-white text-opacity-70 hover:text-opacity-100 text-base font-normal flex flex-row gap-5  font-['Rubik']" >
                     <li>
                         why FinanceX
                     </li>
