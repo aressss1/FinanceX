@@ -4,7 +4,7 @@ import { Button } from './ui/button';
 const Navbar = () => {
     return ( 
         <div className="h-[68px] bg-black flex flex-row justify-between items-center px-16 " >
-            <div className="text-white text-2xl font-bold">
+            <div className="text-white text-xl font-bold">
                 FinanceX
             </div>
             <div>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <Button className="flex flex-row gap-1 items-center justify-center  bg-lime-400 text-white " >
+            <Button className="flex flex-row gap-2 items-center justify-center  bg-lime-400 hover:bg-lime-600 text-white " >
                 SignUp
                 <MoveRight />
             </Button>
