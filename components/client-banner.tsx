@@ -29,6 +29,7 @@ const ClientBanner = () => {
                 <div className="flex flex-row justify-evenly" >
                     {ClientLogos.map((logo) => (
                         <Image
+                            key={logo.name}
                             src={logo.imageSrc}
                             alt={logo.name}
                         />
