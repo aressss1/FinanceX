@@ -5,7 +5,7 @@ import { MoveRight } from 'lucide-react';
 const HeroSection = () => {
     return (
         <div className="h-[37rem] flex bg-black items-center justify-between" >
-            <div className="w-[36rem] flex flex-col pl-20 gap-5 " >
+            <div className="w-[38rem] flex flex-col pl-20 gap-5 " >
                 <div className="text-lime-400 text-xl font-semibold">
                     Welcome! Future Platform
                 </div>
