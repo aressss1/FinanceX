@@ -27,11 +27,12 @@ const ClientBanner = () => {
         <div className="h-28 bg-lime-400" >
             <div className="px-20 pt-8 flex flex-row justify-between items-center "  >
                     {ClientLogos.map((logo) => (
+                        <div key={logo.name} >
                         <Image
-                            key={logo.name}
                             src={logo.imageSrc}
                             alt={logo.name}
                         />
+                        </div>
                     ))}
             </div>
         </div>
