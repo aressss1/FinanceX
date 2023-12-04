@@ -15,7 +15,7 @@ const ClientBanner = () => {
             name: "Paypal"
         },
         {
-            imageSrc: "logos/Vector-Grey.svg",
+            imageSrc: "logos/Vector.svg",
             name: "Vector"
         },
         {
@@ -25,7 +25,7 @@ const ClientBanner = () => {
     ]
     return (
         <div className="h-28 bg-lime-400" >
-            <div className="px-20 flex flex-row justify-center gap-7 items-center "  >
+            <div className="px-20 flex flex-row justify-between items-center "  >
                     {ClientLogos.map((logo) => (
                         <Image
                             key={logo.name}
