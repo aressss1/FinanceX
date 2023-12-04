@@ -1,42 +1,42 @@
 import Image from "next/image";
 
-const ClientBanner = () => {   
+const ClientBanner = () => {
     const ClientLogos = [
         {
             imageSrc: "logos/Adobe-Grey.svg",
-            name:"Adobe"
+            name: "Adobe"
         },
         {
             imageSrc: "logos/Google-Grey.svg",
-            name:"Google"
+            name: "Google"
         },
         {
             imageSrc: "logos/Paypal-Grey.svg",
-            name:"Paypal"
+            name: "Paypal"
         },
         {
             imageSrc: "logos/Vector-Grey.svg",
-            name:"Vector"
+            name: "Vector"
         },
         {
             imageSrc: "logos/Webflow-Grey.svg",
-            name:"Webflow"
+            name: "Webflow"
         },
     ]
-    return ( 
-        <div className="h-56 bg-lime-400" >
+    return (
+        <div className="h-48 bg-lime-400" >
             <div className="px-20" >
-                {ClientLogos.map((logo) => (
-                    <div key={logo.name} className="flex flex-row justify-evenly" >
+                <div className="flex flex-row justify-evenly" >
+                    {ClientLogos.map((logo) => (
                         <Image
                             src={logo.imageSrc}
                             alt={logo.name}
                         />
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default ClientBanner;
