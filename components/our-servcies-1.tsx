@@ -53,7 +53,9 @@ const OurServices1 = () => {
                 </Button>
             </div>
             {servicesCardContent.map((card) => (
-                <Card key={card.id} className="px-6 py-5 hover bg-black flex flex-col border border-zinc-800 rounded-none " >
+                <Card
+                     key={card.id} 
+                     className="group group-hover:bg-zinc-800 px-6 py-5 hover bg-black flex flex-col border border-zinc-800 rounded-none " >
                     <CardHeader className="flex flex-col gap-4"  >
                         <Minus className=" text-white " />
                         <div className="w-64 text-white text-2xl font-medium ">
@@ -64,7 +66,7 @@ const OurServices1 = () => {
                         {card.description}
                     </CardContent>
                     <CardFooter className="flex pt-3 justify-end" >
-                        <Button className="w-14 h-14 bg-white " >
+                        <Button className="w-14 h-14 bg-white group-hover:bg-special " >
                             <MoveUpRight className="text-black" />
                         </Button>
                     </CardFooter>
