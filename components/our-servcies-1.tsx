@@ -13,19 +13,35 @@ import {
 
 const OurServices1 = () => {
     return (
-        <div className="px-20 py-20 bg-black grid grid-cols-2 ">
+        <div className="px-20 py-20 bg-black grid grid-cols-3 ">
             <div className=" flex flex-col gap-6" >
                 <div className="text-special text-xl font-semibold ">
                     Our Services
                 </div>
-                <div className="w-96">
+                <div>
                     <span className="text-white text-5xl font-bold ">Browse our services & </span><span className="text-special text-5xl font-bold">offerings</span></div>
                 <Button className="w-56 h-16 px-11 py-5 bg-special hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
                     Get Started
                     <MoveRight />
                 </Button>
             </div>
-            <Card className="px-6 py-5 w-[360px] bg-black flex flex-col border border-zinc-800" >
+            <Card className="px-6 py-5 bg-black flex flex-col border border-zinc-800" >
+                <CardHeader className="flex flex-col gap-4"  >
+                    <Minus className=" text-white " />
+                    <div className="w-64 text-white text-2xl font-medium ">
+                        Checking accounts
+                    </div>
+                </CardHeader>
+                <CardContent className="py-5 text-white text-opacity-70 text-base font-normal leading-normal" >
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ullam eaque! Nihil mollitia tempore laborum harum cum doloribus eligendi itaque ad quisquam, et expedita libero vitae consectetur? Mollitia, illo natus.
+                </CardContent>
+                <CardFooter className="flex pt-3 justify-end" >
+                    <Button className="w-14 h-14 bg-white " >
+                        <MoveUpRight className="text-black"  />
+                    </Button>
+                </CardFooter>
+            </Card>
+            <Card className="px-6 py-5 bg-black flex flex-col border border-zinc-800" >
                 <CardHeader className="flex flex-col gap-4"  >
                     <Minus className=" text-white " />
                     <div className="w-64 text-white text-2xl font-medium ">
