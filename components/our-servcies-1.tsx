@@ -40,7 +40,7 @@ const OurServices1 = () => {
     ]
 
     return (
-        <div className="px-20 py-20 bg-black grid grid-cols-3 gap-3 ">
+        <div className="px-20 py-20 bg-black grid grid-cols-3  ">
             <div className="flex flex-col gap-6" >
                 <div className="text-special text-xl font-semibold ">
                     Our Services
@@ -53,7 +53,7 @@ const OurServices1 = () => {
                 </Button>
             </div>
             {servicesCardContent.map((card) => (
-                <Card key={card.id} className="px-6 py-5 bg-black flex flex-col border border-zinc-800" >
+                <Card key={card.id} className="px-6 py-5 bg-black flex flex-col border border-zinc-800 rounded-none " >
                     <CardHeader className="flex flex-col gap-4"  >
                         <Minus className=" text-white " />
                         <div className="w-64 text-white text-2xl font-medium ">
