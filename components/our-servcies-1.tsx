@@ -55,7 +55,7 @@ const OurServices1 = () => {
             {servicesCardContent.map((card) => (
                 <Card
                      key={card.id} 
-                     className="group group-hover:bg-zinc-800 px-6 py-5 hover bg-black flex flex-col border border-zinc-800 rounded-none " >
+                     className="group group-hover:bg-zinc-800 px-6 py-5 bg-black flex flex-col border border-zinc-800 rounded-none " >
                     <CardHeader className="flex flex-col gap-4"  >
                         <Minus className=" text-white " />
                         <div className="w-64 text-white text-2xl font-medium ">
