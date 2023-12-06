@@ -41,7 +41,7 @@ const OurServices1 = () => {
 
     return (
         <div className=" bg-black relative" >
-            <div className="pr-20 pl-32 py-20grid grid-cols-3  ">
+            <div className="pr-20 pl-32 py-20 grid grid-cols-3  ">
                 <div className="flex flex-col gap-6 " >
                     <div className="text-special text-xl font-semibold ">
                         Our Services
