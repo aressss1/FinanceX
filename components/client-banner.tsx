@@ -24,7 +24,7 @@ const ClientBanner = () => {
         },
     ]
     return (
-        <div className="h-28 bg-lime-400" >
+        <div className="h-28 bg-special" >
             <div className="px-20 pt-8 flex flex-row justify-between items-center "  >
                     {ClientLogos.map((logo) => (
                         <div key={logo.name} >
