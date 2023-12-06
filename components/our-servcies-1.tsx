@@ -9,6 +9,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
+import Image from "next/image";
 
 
 const OurServices1 = () => {
@@ -25,9 +26,12 @@ const OurServices1 = () => {
                     <MoveRight />
                 </Button>
             </div>
-            <Card className="px-6 py-9 bg-black flex flex-col relative  border border-zinc-800" >
+            <Card className="px-6 py-9 bg-black flex flex-col border border-zinc-800" >
                 <CardHeader className="flex flex-col gap-4"  >
-                    <Minus className="w-10 text-white " />
+                    <Image
+                        src="/Line.png"
+                        alt=""
+                    />
                     <div className="w-64 text-white text-2xl font-medium ">
                         Checking accounts
                     </div>
@@ -35,8 +39,8 @@ const OurServices1 = () => {
                 <CardContent className="py-7 text-white text-opacity-70 text-base font-normal leading-normal" >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ullam eaque! Nihil mollitia tempore laborum harum cum doloribus eligendi itaque ad quisquam, et expedita libero vitae consectetur? Mollitia, illo natus.
                 </CardContent>
-                <CardFooter>
-                    <Button className="w-14 h-14 bg-white absolute right-0 bottom-0 " >
+                <CardFooter className="text-right" >
+                    <Button className="w-14 h-14 bg-white " >
                         <MoveUpRight className="text-black"  />
                     </Button>
                 </CardFooter>
