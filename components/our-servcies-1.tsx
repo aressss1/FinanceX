@@ -25,17 +25,17 @@ const OurServices1 = () => {
                     <MoveRight />
                 </Button>
             </div>
-            <Card className="px-6 py-9 bg-black flex flex-col border border-zinc-800" >
+            <Card className="px-6 py-5 w-[360px] bg-black flex flex-col border border-zinc-800" >
                 <CardHeader className="flex flex-col gap-4"  >
-                    <Minus className="w-10 text-white " />
+                    <Minus className=" text-white " />
                     <div className="w-64 text-white text-2xl font-medium ">
                         Checking accounts
                     </div>
                 </CardHeader>
-                <CardContent className="py-7 text-white text-opacity-70 text-base font-normal leading-normal" >
+                <CardContent className="py-5 text-white text-opacity-70 text-base font-normal leading-normal" >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ullam eaque! Nihil mollitia tempore laborum harum cum doloribus eligendi itaque ad quisquam, et expedita libero vitae consectetur? Mollitia, illo natus.
                 </CardContent>
-                <CardFooter className="flex justify-end" >
+                <CardFooter className="flex pt-3 justify-end" >
                     <Button className="w-14 h-14 bg-white " >
                         <MoveUpRight className="text-black"  />
                     </Button>
