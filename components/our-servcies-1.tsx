@@ -13,8 +13,8 @@ import {
 
 const OurServices1 = () => {
     return (
-        <div className="mx-20 my-20 bg-black grid grid-cols-3 relative ">
-            <div className="flex flex-col gap-3" >
+        <div className="px-20 py-20 bg-black grid grid-cols-2 relative ">
+            <div className=" flex flex-col gap-6" >
                 <div className="text-special text-xl font-semibold ">
                     Our Services
                 </div>
@@ -25,7 +25,7 @@ const OurServices1 = () => {
                     <MoveRight />
                 </Button>
             </div>
-            <Card className="px-6 py-9 flex flex-col border border-zinc-800" >
+            <Card className="px-6 py-9 bg-black flex flex-col border border-zinc-800" >
                 <CardHeader className="flex flex-col gap-4"  >
                     <Minus className="w-10 text-white " />
                     <div className="w-64 text-white text-2xl font-medium ">
