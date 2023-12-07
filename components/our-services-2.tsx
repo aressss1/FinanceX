@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const OurServices2 = () => {
     return (
-        <div className="flex flex-row justify-between px-20 py-12" >
-            <div className="flex flex-col gap-7 w-[28rem] px-5 " >
+        <div className="bg-black  flex flex-row justify-between px-20 py-12" >
+            <div className="flex flex-col gap-7 w-[28rem] py-5 " >
                 <div className="text-special text-xl font-semibold ">
                     Our Services
                 </div>
