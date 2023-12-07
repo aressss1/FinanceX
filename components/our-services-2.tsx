@@ -1,4 +1,4 @@
-import { MoveRight, Globe, Signal, MapPin } from "lucide-react";
+import { MoveRight, Globe, SignalHigh, MapPin } from "lucide-react";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
@@ -19,7 +19,7 @@ const OurServices2 = () => {
         },
         {
             id: 3,
-            icon: <Signal  className="h-8 w-8"/>,
+            icon: <SignalHigh  className="h-8 w-8"/>,
             title: "Make internet of Money",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  "
         },
