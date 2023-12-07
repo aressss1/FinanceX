@@ -4,6 +4,27 @@ import Image from "next/image";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
 
 const OurServices2 = () => {
+    const servicesCardContent = [
+        {
+            id: 1,
+            icon: <MapPin  className="h-8 w-8"/>,
+            title: "Local business finance",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  "
+        },
+        {
+            id: 2,
+            icon: <Globe  className="h-8 w-8"/>,
+            title: "Built for global payments",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  "
+        },
+        {
+            id: 3,
+            icon: <Signal  className="h-8 w-8"/>,
+            title: "Make internet of Money",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  "
+        },
+    ]
+
     return (
         <>
             <div className="bg-black  flex flex-row justify-between px-20 py-12" >
@@ -30,25 +51,29 @@ const OurServices2 = () => {
                 </div>
             </div>
 
-            <div className=" bg-black px-20 py-12 group" >
-                <Card
-                    className=" group-hover:bg-zinc-800 p-6 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
-                    <CardHeader className=" flex flex-col gap-3" >
-                        <div className="h-12 w-12 bg-white group-hover:bg-special text-center flex justify-center items-center " >
-                            <MapPin className="h-8 w-8" />
-                        </div>
-                        <div className="text-white text-3xl font-bold leading-9">
-                            Local business finance
-                        </div>
-                    </CardHeader>
-                    <CardContent className=" text-white text-opacity-70 text-base font-normal leading-normal" >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </CardContent>
-                    <CardFooter className="flex justify-start text-white " >
-                        Learn More
-                        <MoveRight />
-                    </CardFooter>
-                </Card>
+            <div className=" bg-black px-20 py-12 grid grid-cols-3">
+                {servicesCardContent.map((card) => (
+                    <div key={card.id} className="group" >
+                        <Card
+                            className=" group-hover:bg-zinc-800 p-6 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
+                            <CardHeader className=" flex flex-col gap-3" >
+                                <div className="h-12 w-12 bg-white group-hover:bg-special text-center flex justify-center items-center " >
+                                    {card.icon}
+                                </div>
+                                <div className="text-white text-3xl font-bold leading-9">
+                                    {card.title}
+                                </div>
+                            </CardHeader>
+                            <CardContent className=" text-white text-opacity-70 text-base font-normal leading-normal" >
+                                    {card.description}
+                            </CardContent>
+                            <CardFooter className="flex justify-start gap-2 text-white " >
+                                Learn More
+                                <MoveRight />
+                            </CardFooter>
+                        </Card>
+                    </div>
+                ))}
             </div>
         </>
     );
