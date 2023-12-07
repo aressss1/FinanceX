@@ -30,12 +30,12 @@ const OurServices2 = () => {
                 </div>
             </div>
 
-            <div className="px-20 py-12 group" >
+            <div className=" bg-black px-20 py-12 group" >
                 <Card
                     className=" group-hover:bg-zinc-800 p-6 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
                     <CardHeader className=" flex flex-col gap-3" >
-                        <div className="h-14 w-14 bg-white text-center flex justify-start " >
-                            <MapPin className="h-4 w-5" />
+                        <div className="h-12 w-12 bg-white group-hover:bg-special text-center flex justify-center items-center " >
+                            <MapPin className="h-8 w-8" />
                         </div>
                         <div className="text-white text-3xl font-bold leading-9">
                             Local business finance
@@ -44,7 +44,7 @@ const OurServices2 = () => {
                     <CardContent className=" text-white text-opacity-70 text-base font-normal leading-normal" >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </CardContent>
-                    <CardFooter className="flex justify-start" >
+                    <CardFooter className="flex justify-start text-white " >
                         Learn More
                         <MoveRight />
                     </CardFooter>
