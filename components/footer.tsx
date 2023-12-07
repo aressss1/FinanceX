@@ -50,7 +50,7 @@ const Footer = () => {
                         Join Our Newsletter
                     </div>
                     <div className="flex w-full max-w-sm items-center">
-                        <Input className='rounded-none' type="email" placeholder="Your email address" />
+                        <Input className='rounded-none bg-white bg-opacity-70' type="email" placeholder="Your email address" />
                         <Button className='bg-special rounded-none text-black ' type="submit">Subscribe</Button>
                     </div>
                     <div className="opacity-50 text-white text-opacity-70 text-base font-normal leading-relaxed">
