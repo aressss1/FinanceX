@@ -47,7 +47,7 @@ const OurServices1 = () => {
                 </div>
                 <div>
                     <span className="text-white text-5xl font-bold ">Browse our services & </span><span className="text-special text-5xl font-bold">offerings</span></div>
-                <Button className="w-56 h-16 px-11 py-5 bg-special hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
+                <Button className="w-56 h-16 px-11 py-5 rounded-none bg-special hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
                     Get Started
                     <MoveRight />
                 </Button>

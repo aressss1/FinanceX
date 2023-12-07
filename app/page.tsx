@@ -1,5 +1,6 @@
 import Banner from '@/components/banner'
 import ClientBanner from '@/components/client-banner'
+import Footer from '@/components/footer'
 import HeroSection from '@/components/hero'
 import Navbar from '@/components/navbar'
 import OurBenefits from '@/components/our-benefits'
@@ -17,6 +18,7 @@ export default function Home() {
     <OurBenefits />
     <OurServices2 />
     <Banner />
+    <Footer />
    </>
   )
 }
