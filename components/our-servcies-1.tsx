@@ -66,7 +66,7 @@ const OurServices1 = () => {
                             {card.description}
                         </CardContent>
                         <CardFooter className=" flex pt-3 justify-end" >
-                            <Button className="w-14 h-14 bg-white group-hover:bg-special " >
+                            <Button className="w-14 h-14 bg-white rounded-none group-hover:bg-special " >
                                 <MoveUpRight className="text-black" />
                             </Button>
                         </CardFooter>

@@ -23,7 +23,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <Button className="flex flex-row gap-2 items-center justify-center  bg-special hover:bg-lime-600 text-white " >
+            <Button className="flex flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black " >
                 SignUp
                 <MoveRight />
             </Button>

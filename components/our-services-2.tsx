@@ -38,7 +38,7 @@ const OurServices2 = () => {
                     <div className=" text-white text-opacity-70 text-base font-normal  leading-normal">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
                     </div>
-                    <Button className="w-56 h-16 px-11 py-5 bg-special hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
+                    <Button className="w-56 h-16 px-11 py-5 bg-special rounded-none hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
                         Get Started
                         <MoveRight />
                     </Button>
