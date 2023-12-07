@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <Separator  className='h-[2px] '/>
+            <Separator  className='h-[1px] text-white text-opacity-70 '/>
             <div className="text-center text-white text-opacity-70 text-base font-medium ">
                 Copyright &copy; FinanceX 2022. All Rights Reserved.
             </div>
