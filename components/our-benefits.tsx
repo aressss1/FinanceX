@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const OurBenefits = () => {
     return ( 
-        <div className="flex flex-row px-20 py-12 bg-black" >
-            <div className="flex flex-col gap-8" >
+        <div className="flex flex-row justify-between px-20 py-12 bg-black" >
+            <div className="w-[28rem] flex flex-col gap-8" >
             <div className="text-special text-xl font-semibold">
                 Benefits
             </div>
@@ -16,8 +16,8 @@ const OurBenefits = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna 
             </div>
             <div className='flex flex-row justify-between' >
-                <div className='flex flex-col justify-between' >
-                    <div className='flex flex-row text-3xl text-white uppercase ' >
+                <div className='flex flex-col justify-between gap-3 ' >
+                    <div className='flex flex-row items-center text-3xl text-white uppercase ' >
                         10M
                         <Plus className='text-special'  />
                     </div>
@@ -25,8 +25,8 @@ const OurBenefits = () => {
                         User active
                     </div>
                 </div>
-                <div className='flex flex-col justify-between' >
-                    <div className='flex flex-row text-3xl text-white uppercase ' >
+                <div className='flex flex-col justify-between gap-3 ' >
+                    <div className='flex flex-row items-center  text-3xl text-white uppercase ' >
                         30
                         <Plus className='text-special'  />
                     </div>
@@ -34,9 +34,9 @@ const OurBenefits = () => {
                         Country
                     </div>
                 </div>
-                <div className='flex flex-col justify-between' >
-                    <div className='flex flex-row text-3xl text-white uppercase ' >
-                        <DollarSign />
+                <div className='flex flex-col justify-between gap-3 ' >
+                    <div className='flex flex-row items-center text-3xl text-white uppercase ' >
+                        <DollarSign className='h-9' />
                         50M
                         <Plus className='text-special'  />
                     </div>
