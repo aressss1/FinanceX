@@ -28,6 +28,12 @@ const Testimonials = () => {
             name: "Alex",
             role: "Webflow Developer"
         },
+        {
+            review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel",
+            imgSrc: "client/client-3.svg",
+            name: "Sammy",
+            role: "Webflow Developer"
+        },
     ]
 
 
