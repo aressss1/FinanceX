@@ -28,12 +28,12 @@ const Testimonials = () => {
 
     return (
         <div className="bg-special py-20" >
-            <div className="px-20 flex flex-row justify-between items-center " >
-                <div className="py-4 flex flex-col gap-2" >
+            <div className="px-20 pb-14 flex flex-row justify-between items-center " >
+                <div className=" flex flex-col gap-5" >
                     <div className="text-neutral-900 text-xl font-semibold ">
                         Our Services
                     </div>
-                    <div className=" text-neutral-900 text-7xl font-bold  leading-[3.5rem]">
+                    <div className=" text-neutral-900 text-7xl font-bold  leading-[4.5rem]">
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
@@ -46,9 +46,9 @@ const Testimonials = () => {
                     </Button>
                 </div>
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center gap-6'>
                 {reviews.map((review) => (
-                    <Card key={review.name} className="bg-black flex flex-col  rounded-none p-10 gap-5 " >
+                    <Card key={review.name} className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
                         <CardContent className=" text-white text-sm font-normal leading-loose" >
                             {review.review}
                         </CardContent>
