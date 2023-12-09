@@ -72,9 +72,9 @@ const Testimonials = () => {
             >
                 <div className='flex flex-row items-center gap-5 justify-end' >
                     <Button 
-                        onClick={(e) => swiper.slidePrev()} 
+                         
                         className='w-14 h-14 rounded-full bg-special border border-black ' >
-                            <ArrowLeft className='text-black' />
+                            <ArrowLeft onClick={(e) => swiper.slidePrev()} className='text-black' />
                     </Button>
                     <Button 
                         onClick={(e) => swiper.slideNext()}
