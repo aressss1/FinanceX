@@ -38,40 +38,39 @@ const Testimonials = () => {
 
 
     return (
-        <div className="bg-special py-20" >
-            <div className="px-20 pb-14 flex flex-row justify-between items-center " >
-                <div className=" flex flex-col gap-5" >
-                    <div className="text-neutral-900 text-xl font-semibold ">
-                        Our Services
+        <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+        >
+            <div className="bg-special py-20" >
+                <div className="px-20 pb-14 flex flex-row justify-between items-center " >
+                    <div className=" flex flex-col gap-5" >
+                        <div className="text-neutral-900 text-xl font-semibold ">
+                            Our Services
+                        </div>
+                        <div className=" text-neutral-900 text-7xl font-bold  leading-[4.5rem]">
+                            Global businesses <br /> love FinanceX
+                        </div>
                     </div>
-                    <div className=" text-neutral-900 text-7xl font-bold  leading-[4.5rem]">
-                        Global businesses <br /> love FinanceX
+                    <div className='flex flex-row items-center gap-5 justify-end' >
+                        <Button className='w-14 h-14 rounded-full bg-special border border-black ' >
+                            <ArrowLeft className='text-black' />
+                        </Button>
+                        <Button className='w-14 h-14 rounded-full bg-black  ' >
+                            <ArrowRight className='text-white' />
+                        </Button>
                     </div>
                 </div>
-                <div className='flex flex-row items-center gap-5 justify-end' >
-                    <Button className='w-14 h-14 rounded-full bg-special border border-black ' >
-                        <ArrowLeft className='text-black' />
-                    </Button>
-                    <Button className='w-14 h-14 rounded-full bg-black  ' >
-                        <ArrowRight className='text-white' />
-                    </Button>
-                </div>
-            </div>
-            <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={3}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-            >
+
                 <div className='flex items-center justify-center gap-6 pl-7'>
                     {reviews.map((review) => (
-                        <SwiperSlide key={review.name} >
-                            <Card  className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
+                        <SwiperSlide key={review.name} className='' >
+                            <Card className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
                                 <CardContent className=" text-white text-sm font-normal leading-loose" >
                                     {review.review}
                                 </CardContent>
@@ -94,8 +93,8 @@ const Testimonials = () => {
                         </SwiperSlide>
                     ))}
                 </div>
-            </Swiper>
-        </div>
+            </div >
+        </Swiper>
     );
 }
 
