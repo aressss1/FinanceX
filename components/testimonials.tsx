@@ -69,8 +69,8 @@ const Testimonials = () => {
             >
                 <div className='flex items-center justify-center gap-6 '>
                     {reviews.map((review) => (
-                        <SwiperSlide key={review.name} className='' >
-                            <Card  className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
+                        <SwiperSlide key={review.name} className='pl-7' >
+                            <Card  className="bg-black w-96 border-none flex flex-col  rounded-none p-10 gap-5 " >
                                 <CardContent className=" text-white text-sm font-normal leading-loose" >
                                     {review.review}
                                 </CardContent>
