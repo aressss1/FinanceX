@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 import { Card, CardContent, CardFooter } from './ui/card';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
 
 const Testimonials = () => {
@@ -52,15 +52,20 @@ const Testimonials = () => {
                 </div>
             </div>
             <Swiper
-                loop={true}
-                modules={[Navigation]}
-                slidesPerView={1}
+                // install Swiper modules
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={50}
+                slidesPerView={3}
                 navigation
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+                onSwiper={(swiper) => console.log(swiper)}
+                onSlideChange={() => console.log('slide change')}
             >
                 <div className='flex items-center justify-center gap-6 pl-7'>
-                    <SwiperSlide  >
-                        {reviews.map((review) => (
-                            <Card key={review.name} className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
+                    {reviews.map((review) => (
+                        <SwiperSlide key={review.name} >
+                            <Card  className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
                                 <CardContent className=" text-white text-sm font-normal leading-loose" >
                                     {review.review}
                                 </CardContent>
@@ -80,8 +85,8 @@ const Testimonials = () => {
                                     </div>
                                 </CardFooter>
                             </Card>
-                        ))}
-                    </SwiperSlide>
+                        </SwiperSlide>
+                    ))}
                 </div>
             </Swiper>
         </div>
