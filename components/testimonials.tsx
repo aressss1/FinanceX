@@ -6,9 +6,20 @@ import { Card, CardContent, CardFooter } from './ui/card';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { useSwiper } from 'swiper/react';
 import 'swiper/css';
 
 const Testimonials = () => {
+    const swiper = useSwiper()
+
+    const prevClick = () => {
+        
+    }
+
+    const nextClick = () => {
+
+    }
+
     const reviews = [
         {
             review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel",
@@ -48,14 +59,6 @@ const Testimonials = () => {
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
-                <div className='flex flex-row items-center gap-5 justify-end' >
-                    <Button className='w-14 h-14 rounded-full bg-special border border-black ' >
-                        <ArrowLeft className='text-black' />
-                    </Button>
-                    <Button className='w-14 h-14 rounded-full bg-black  ' >
-                        <ArrowRight className='text-white' />
-                    </Button>
-                </div>
             </div>
             <Swiper
                 // install Swiper modules
@@ -67,6 +70,18 @@ const Testimonials = () => {
                 scrollbar={{ draggable: true }}
                 className='pl-7'
             >
+                <div className='flex flex-row items-center gap-5 justify-end' >
+                    <Button 
+                        onClick={() => swiper.slidePrev()} 
+                        className='w-14 h-14 rounded-full bg-special border border-black ' >
+                            <ArrowLeft className='text-black' />
+                    </Button>
+                    <Button 
+                        onClick={() => swiper.slideNext()}
+                        className='w-14 h-14 rounded-full bg-black  ' >
+                        <ArrowRight className='text-white' />
+                    </Button>
+                </div>
                 <div className='flex items-center justify-center gap-6 '>
                     {reviews.map((review) => (
                         <SwiperSlide key={review.name} className='pl-7' >
