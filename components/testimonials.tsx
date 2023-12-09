@@ -65,8 +65,9 @@ const Testimonials = () => {
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
+                className='pl-7'
             >
-                <div className='flex items-center justify-center gap-6 pl-7'>
+                <div className='flex items-center justify-center gap-6 '>
                     {reviews.map((review) => (
                         <SwiperSlide key={review.name} className='' >
                             <Card  className="bg-black border-none flex flex-col  rounded-none p-10 gap-5 " >
