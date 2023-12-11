@@ -65,7 +65,7 @@ const OurServices1 = () => {
                         <CardContent className=" py-5 text-white text-opacity-70 text-base md:text-sm md:py-4 md:p-1 font-normal leading-normal" >
                             {card.description}
                         </CardContent>
-                        <CardFooter className=" flex pt-3 justify-end" >
+                        <CardFooter className=" flex pt-3 md:p-0  justify-end" >
                             <Button className="w-14 h-14 md:w-12 md:h-12 bg-white rounded-none group-hover:bg-special " >
                                 <MoveUpRight className="text-black" />
                             </Button>

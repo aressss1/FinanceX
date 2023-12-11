@@ -35,7 +35,7 @@ const OurServices2 = () => {
                     <div>
                         <span className="text-white text-5xl md:text-4xl font-bold ">Real Time </span><span className="text-special text-5xl md:text-4xl font-bold ">Transaction Report</span>
                     </div>
-                    <div className=" text-white text-opacity-70 text-base font-normal leading-normal md:p-4 md:w-56 ">
+                    <div className=" text-white text-opacity-70 text-base font-normal leading-normal  md:w-56 ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
                     </div>
                     <Button className="w-56 h-16 md:w-40 md:h-12 px-11 py-5 md:px-8 md:py-4 md:text-xs md:gap-3  bg-special rounded-none hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
