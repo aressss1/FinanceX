@@ -53,7 +53,7 @@ const OurServices1 = () => {
                 </Button>
             </div>
             {servicesCardContent.map((card) => (
-                <div key={card.id}  className="group" >
+                <div key={card.id} className="group" >
                     <Card
                         className=" group-hover:bg-zinc-800 px-6 py-5 md:px-4 md:py-4 bg-black flex flex-col border border-zinc-800 rounded-none " >
                         <CardHeader className=" flex flex-col gap-4 md:p-1"  >

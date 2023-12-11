@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="text-white text-xl md:text-base font-bold">
                         FinanceX
                     </div>
-                    <div className="w-52 md:w-0 text-white text-opacity-70 text-base md:text-sm font-normal leading-normal">
+                    <div className="w-52 md:w-40 text-white text-opacity-70 text-base md:text-sm font-normal leading-normal">
                         Lorem ipsum dolor sit amet, consectetur
                     </div>
                     <div className="flex gap-5 justify-start items-center text-white " >
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col gap-4 md:gap-2' >
-                    <div className="text-white text-opacity-70 text-xl font-bold">
+                    <div className="text-white text-opacity-70 text-xl md:text-base font-bold">
                         Company
                     </div>
                     <div className="text-white flex flex-col gap-4 text-opacity-70 text-base md:text-sm font-normal leading-normal">
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col gap-4 md:gap-2' >
-                    <div className="text-white text-opacity-70 text-xl font-bold">
+                    <div className="text-white text-opacity-70 text-xl md:text-base font-bold">
                         Resources
                     </div>
                     <div className="text-white flex flex-col gap-4 text-opacity-70 text-base md:text-sm font-normal leading-normal">
@@ -46,12 +46,12 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col gap-4 md:gap-2' >
-                    <div className="text-white text-opacity-70 text-xl font-bold  leading-normal">
+                    <div className="text-white text-opacity-70 text-xl md:text-base font-bold  leading-normal">
                         Join Our Newsletter
                     </div>
                     <div className="flex w-full max-w-sm items-center">
-                        <Input className='rounded-none bg-white bg-opacity-70' type="email" placeholder="Your email address" />
-                        <Button className='bg-special rounded-none text-black ' type="submit">Subscribe</Button>
+                        <Input className='rounded-none bg-white bg-opacity-70 md:text-xs' type="email" placeholder="Your email address" />
+                        <Button className='bg-special rounded-none text-black md:w-13 md:text-xs ' type="submit">Subscribe</Button>
                     </div>
                     <div className="opacity-50 text-white text-opacity-70 text-base md:text-sm font-normal leading-relaxed">
                         *  Will send you weekly updates for your better finance management.
