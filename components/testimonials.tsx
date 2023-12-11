@@ -81,7 +81,7 @@ const Testimonials = () => {
             </div>
             <div className='flex items-center justify-center gap-6 '>
                 {reviews.slice(startIndex, startIndex + 3).map((review, index) => (
-                    <Card key={review.name} className="bg-black w-96 border-none flex flex-col  rounded-none p-10 gap-5 " >
+                    <Card key={review.name} className="bg-black w-96 border-none flex flex-col  rounded-none p-10 gap-5 transition-all duration-500 transform hover:scale-105 " >
                         <CardContent className=" text-white text-sm font-normal leading-loose" >
                             {review.review}
                         </CardContent>
