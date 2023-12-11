@@ -3,11 +3,11 @@ import { Button } from './ui/button';
 
 const Navbar = () => {
     return ( 
-        <div className="h-[68px] bg-black flex flex-row justify-between items-center px-20 " >
+        <div className="h-[68px] bg-black flex flex-row justify-between items-center px-20 md:px-12" >
             <div className="text-white text-xl font-bold">
                 FinanceX
             </div>
-            <div>
+            <div >
                 <ul className="text-white text-opacity-70  text-base font-normal flex flex-row gap-10 " >
                     <li>
                         why FinanceX
@@ -23,7 +23,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <Button className="flex flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black " >
+            <Button className="flex flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black  " >
                 SignUp
                 <MoveRight />
             </Button>

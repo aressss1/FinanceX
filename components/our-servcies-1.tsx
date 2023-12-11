@@ -40,14 +40,14 @@ const OurServices1 = () => {
     ]
 
     return (
-        <div className="px-20 py-20 bg-black grid grid-cols-3  ">
+        <div className="px-20 py-20 md:px-12 md:py-12 bg-black grid grid-cols-3 md:grid-cols-2 ">
             <div className="flex flex-col gap-6 " >
-                <div className="text-special text-xl font-semibold ">
+                <div className="text-special text-xl md:text-base font-semibold ">
                     Our Services
                 </div>
                 <div>
                     <span className="text-white text-5xl font-bold ">Browse our services & </span><span className="text-special text-5xl font-bold">offerings</span></div>
-                <Button className="w-56 h-16 px-11 py-5 rounded-none bg-special hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
+                <Button className="w-56 h-16 px-11 py-5 md:w-40 md:h-12 md:px-8 md:py-4 md:text-xs md:gap-3 rounded-none bg-special hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
                     Get Started
                     <MoveRight />
                 </Button>
@@ -55,10 +55,10 @@ const OurServices1 = () => {
             {servicesCardContent.map((card) => (
                 <div key={card.id}  className="group" >
                     <Card
-                        className=" group-hover:bg-zinc-800  px-6 py-5 bg-black flex flex-col border border-zinc-800 rounded-none " >
-                        <CardHeader className=" flex flex-col gap-4"  >
+                        className=" group-hover:bg-zinc-800 px-6 py-5 md:px-4 md:py-4 bg-black flex flex-col border border-zinc-800 rounded-none " >
+                        <CardHeader className=" flex flex-col gap-4 md:p-1"  >
                             <Minus className=" text-white " />
-                            <div className="w-64 text-white text-2xl font-medium ">
+                            <div className="w-64 text-white text-2xl md:text-lg font-medium ">
                                 {card.title}
                             </div>
                         </CardHeader>
