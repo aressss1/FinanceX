@@ -64,8 +64,7 @@ const Testimonials = () => {
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
-            </div>
-            <div className='flex flex-row items-center gap-5 justify-end' >
+                <div className='flex flex-row items-center gap-5 justify-end' >
                 <Button
                     onClick={handlePrev}
                     disabled={startIndex === 0}
@@ -79,6 +78,8 @@ const Testimonials = () => {
                     <ArrowRight className='text-white' />
                 </Button>
             </div>
+            </div>
+            
             <div className='flex items-center justify-center gap-6 '>
                 {reviews.slice(startIndex, startIndex + 3).map((review, index) => (
                     <Card key={review.name} className="bg-black w-96 border-none flex flex-col  rounded-none p-10 gap-5 transition-all duration-500 transform hover:scale-105 " >
