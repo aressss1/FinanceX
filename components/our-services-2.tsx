@@ -55,16 +55,16 @@ const OurServices2 = () => {
                 {servicesCardContent.map((card) => (
                     <div key={card.id} className="group" >
                         <Card
-                            className=" group-hover:bg-zinc-800 p-6 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
-                            <CardHeader className=" flex flex-col gap-3" >
-                                <div className="h-12 w-12 md:h-10 md:w-10 bg-white group-hover:bg-special text-center flex justify-center items-center " >
+                            className=" group-hover:bg-zinc-800 p-6 md:p-4 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
+                            <CardHeader className=" flex flex-col gap-3 md:p-4" >
+                                <div className="h-12 w-12 md:h-9 md:w-9 bg-white group-hover:bg-special text-center flex justify-center items-center " >
                                     {card.icon}
                                 </div>
-                                <div className="text-white text-3xl md:text-2xl font-bold leading-9 md:leading-7 ">
+                                <div className="text-white text-3xl md:text-xl font-bold leading-9 md:leading-7 ">
                                     {card.title}
                                 </div>
                             </CardHeader>
-                            <CardContent className=" text-white text-opacity-70 text-base font-normal leading-normal" >
+                            <CardContent className=" text-white text-opacity-70 text-base md:text-sm font-normal leading-normal" >
                                 {card.description}
                             </CardContent>
                             <CardFooter className="flex justify-start gap-2 text-white md:text-base " >
