@@ -10,11 +10,11 @@ module.exports = {
   theme: {
     theme: {
       screens: {
-        'sm': '640px',
-        // => @media (min-width: 640px) { ... }
-  
-        'md': '768px',
-        // => @media (min-width: 768px) { ... }
+        'md': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
       }
     },
     container: {
