@@ -64,7 +64,7 @@ const Testimonials = () => {
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
-                <di cv className='flex flex-row items-center gap-5 justify-end' >
+                <div className='flex flex-row items-center gap-5 justify-end' >
                 <Button
                     onClick={handlePrev}
                     disabled={startIndex === 0}
