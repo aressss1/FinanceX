@@ -10,7 +10,7 @@ const HeroSection = () => {
                     Welcome! Future Platform
                 </div>
                 <div >
-                    <span className="text-white text-7xl md:text-5xl font-black">The World&apos;s Most Modern Card </span><span className="text-special text-7xl font-black">Platform</span>
+                    <span className="text-white text-7xl md:text-5xl font-black">The World&apos;s Most Modern Card </span><span className="text-special text-7xl md:text-5xl font-black">Platform</span>
                 </div>
                 <div className=" text-white text-opacity-70 text-lg md:text-base font-normal leading-relaxed">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor

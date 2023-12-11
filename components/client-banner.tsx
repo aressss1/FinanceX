@@ -31,7 +31,7 @@ const ClientBanner = () => {
                         <Image
                             src={logo.imageSrc}
                             alt={logo.name}
-                            className="md:w-[48px] md:h-[38px]"
+                            className="md:w-[83px] md:h-[46px]"
                         />
                         </div>
                     ))}
