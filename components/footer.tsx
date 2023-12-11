@@ -51,7 +51,7 @@ const Footer = () => {
                     </div>
                     <div className="flex w-full max-w-sm items-center">
                         <Input className='rounded-none bg-white bg-opacity-70 md:text-xs' type="email" placeholder="Your email address" />
-                        <Button className='bg-special rounded-none text-black md:w-13 md:text-xs ' type="submit">Subscribe</Button>
+                        <Button className='bg-special rounded-none text-black md:w-16 md:text-xs md:px-2 md:py-1 ' type="submit">Subscribe</Button>
                     </div>
                     <div className="opacity-50 text-white text-opacity-70 text-base md:text-sm font-normal leading-relaxed">
                         *  Will send you weekly updates for your better finance management.
