@@ -53,13 +53,13 @@ const Footer = () => {
                         <Input className='rounded-none bg-white bg-opacity-70' type="email" placeholder="Your email address" />
                         <Button className='bg-special rounded-none text-black ' type="submit">Subscribe</Button>
                     </div>
-                    <div className="opacity-50 text-white text-opacity-70 text-base font-normal leading-relaxed">
+                    <div className="opacity-50 text-white text-opacity-70 text-base md:text-sm font-normal leading-relaxed">
                         *  Will send you weekly updates for your better finance management.
                     </div>
                 </div>
             </div>
             <Separator  className=' text-white text-opacity-70 '/>
-            <div className="p-3 text-center text-white text-opacity-70 text-base md:text-sm font-medium ">
+            <div className="p-3 text-center text-white text-opacity-70 text-base  font-medium ">
                 Copyright &copy; FinanceX 2022. All Rights Reserved.
             </div>
         </div>
