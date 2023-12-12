@@ -27,18 +27,18 @@ const OurServices2 = () => {
 
     return (
         <>
-            <div className="bg-black  flex flex-col gap-3 md:flex-row justify-between lg:px-20 py-12 md:px-12 " >
+            <div className="bg-black  flex flex-col gap-3 px-2 md:flex-row justify-between lg:px-20 py-12 md:px-12 " >
                 <div className="flex flex-col gap-5 w-[28rem]  " >
-                    <div className="text-special lg:text-xl md:text-base  font-semibold ">
+                    <div className="text-special lg:text-xl md:text-base text-xs font-semibold ">
                         Our Services
                     </div>
                     <div>
-                        <span className="text-white lg:text-5xl md:text-4xl font-bold ">Real Time </span><span className="text-special lg:text-5xl md:text-4xl font-bold ">Transaction Report</span>
+                        <span className="text-white lg:text-5xl md:text-4xl text-xl font-bold ">Real Time </span><span className="text-special lg:text-5xl md:text-4xl text-xl font-bold ">Transaction Report</span>
                     </div>
-                    <div className=" text-white text-opacity-70 text-base font-normal leading-normal ">
+                    <div className=" text-white text-opacity-70 md:text-base text-xs font-normal leading-normal ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
                     </div>
-                    <Button className="lg:w-56 lg:h-16 md:w-40 md:h-12 lg:px-11 lg:py-5 md:px-8 md:py-4 md:text-xs md:gap-3  bg-special rounded-none hover:bg-lime-600 text-black items-center lg:gap-5 inline-flex" >
+                    <Button variant="special" >
                         Get Started
                         <MoveRight />
                     </Button>
