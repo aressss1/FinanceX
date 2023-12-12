@@ -27,18 +27,18 @@ const OurServices2 = () => {
 
     return (
         <>
-            <div className="bg-black  flex flex-row justify-between px-20 py-12 md:px-12 " >
+            <div className="bg-black  flex flex-row justify-between lg:px-20 py-12 md:px-12 " >
                 <div className="flex flex-col gap-5 w-[28rem]  " >
-                    <div className="text-special text-xl md:text-base font-semibold ">
+                    <div className="text-special lg:text-xl md:text-base font-semibold ">
                         Our Services
                     </div>
                     <div>
-                        <span className="text-white text-5xl md:text-4xl font-bold ">Real Time </span><span className="text-special text-5xl md:text-4xl font-bold ">Transaction Report</span>
+                        <span className="text-white lg:text-5xl md:text-4xl font-bold ">Real Time </span><span className="text-special lg:text-5xl md:text-4xl font-bold ">Transaction Report</span>
                     </div>
-                    <div className=" text-white text-opacity-70 text-base font-normal leading-normal  md:w-56 ">
+                    <div className=" text-white text-opacity-70 text-base font-normal leading-normal ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
                     </div>
-                    <Button className="w-56 h-16 md:w-40 md:h-12 px-11 py-5 md:px-8 md:py-4 md:text-xs md:gap-3  bg-special rounded-none hover:bg-lime-600 text-black items-center gap-5 inline-flex" >
+                    <Button className="lg:w-56 lg:h-16 md:w-40 md:h-12 lg:px-11 lg:py-5 md:px-8 md:py-4 md:text-xs md:gap-3  bg-special rounded-none hover:bg-lime-600 text-black items-center lg:gap-5 inline-flex" >
                         Get Started
                         <MoveRight />
                     </Button>
@@ -51,25 +51,25 @@ const OurServices2 = () => {
                 </div>
             </div>
 
-            <div className=" bg-black px-20 py-12 md:px-12 grid grid-cols-3">
+            <div className=" bg-black lg:px-20 lg:py-12 md:px-12 grid grid-cols-3">
                 {servicesCardContent.map((card) => (
                     <div key={card.id} className="group" >
                         <Card
-                            className=" group-hover:bg-zinc-800 p-6 md:p-4 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
-                            <CardHeader className=" flex flex-col gap-3 md:p-4" >
-                                <div className="h-12 w-12 md:h-9 md:w-9 bg-white group-hover:bg-special text-center flex justify-center items-center " >
+                            className=" group-hover:bg-zinc-800 lg:p-6 md:p-4 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
+                            <CardHeader className=" flex flex-col gap-3 md:p-4 lg:p-6" >
+                                <div className="lg:h-12 lg:w-12 md:h-9 md:w-9 bg-white group-hover:bg-special text-center flex justify-center items-center " >
                                     {card.icon}
                                 </div>
-                                <div className="text-white text-3xl md:text-xl font-bold leading-9 md:leading-7 ">
+                                <div className="text-white lg:text-3xl md:text-xl font-bold lg:leading-9 md:leading-7 ">
                                     {card.title}
                                 </div>
                             </CardHeader>
-                            <CardContent className=" text-white text-opacity-70 text-base md:text-sm font-normal leading-normal" >
+                            <CardContent className=" text-white text-opacity-70 lg:text-base md:text-sm font-normal leading-normal" >
                                 {card.description}
                             </CardContent>
-                            <CardFooter className="flex justify-start gap-2 text-white md:text-base " >
+                            <CardFooter className="flex justify-start gap-2 text-white md:text-base lg:text-lg" >
                                 Learn More
-                                <MoveRight className="md:h-3"  />
+                                <MoveRight className="md:h-3 "  />
                             </CardFooter>
                         </Card>
                     </div>

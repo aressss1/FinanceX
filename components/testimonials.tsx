@@ -55,12 +55,12 @@ const Testimonials = () => {
 
     return (
         <div className="bg-special py-20  " >
-            <div className="px-20 md:px-12 pb-14 flex flex-row justify-between items-center " >
+            <div className="lg:px-20 md:px-12 pb-14 flex flex-row justify-between items-center " >
                 <div className=" flex flex-col gap-5" >
-                    <div className="text-neutral-900 text-xl  font-semibold ">
+                    <div className="text-neutral-900 lg:text-xl md:text-base font-semibold ">
                         Our Services
                     </div>
-                    <div className=" text-neutral-900 text-7xl md:text-5xl font-bold  leading-[4.5rem] md:leading-[3.25rem]">
+                    <div className=" text-neutral-900 lg:text-7xl md:text-5xl font-bold  lg:leading-[4.5rem] md:leading-[3.25rem]">
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
@@ -82,11 +82,11 @@ const Testimonials = () => {
             
             <div className='flex items-center justify-center gap-6 '>
                 {reviews.slice(startIndex, startIndex + 3).map((review, index) => (
-                    <Card key={review.name} className="bg-black w-96 md:w-56 border-none flex flex-col  rounded-none p-10 md:p-2 gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
-                        <CardContent className=" text-white text-sm  md:p-4 md:pt-1 font-normal  leading-loose md:leading-relaxed" >
+                    <Card key={review.name} className="bg-black lg:w-96 md:w-56 border-none flex flex-col  rounded-none lg:p-10 md:p-2 lg:gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
+                        <CardContent className=" text-white text-sm lg:p-6 md:p-4 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed" >
                             {review.review}
                         </CardContent>
-                        <CardFooter className="flex flex-row md:p-4 justify-start gap-4 " >
+                        <CardFooter className="flex flex-row lg:p-6 md:p-4 justify-start gap-4 " >
                             <Image
                                 className='w-12 h-12  rounded-full'
                                 src={review.imgSrc}
