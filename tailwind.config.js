@@ -2,20 +2,18 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
     theme: {
       screens: {
-        'md': {'max': '767px'},
-      // => @media (max-width: 767px) { ... }
+        md: { max: "767px" },
 
-      'sm': {'max': '639px'},
-      // => @media (max-width: 639px) { ... }
-      }
+        sm: { max: "639px" },
+      },
     },
     container: {
       center: true,
@@ -26,7 +24,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        special: '#CBFC01',
+        special: "#CBFC01",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -83,4 +81,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
