@@ -27,7 +27,7 @@ const OurServices2 = () => {
 
     return (
         <>
-            <div className="bg-black  flex flex-col gap-3 px-2 md:flex-row justify-between lg:px-20 py-12 md:px-12 " >
+            <div className="bg-black  flex flex-col gap-16 px-2 md:flex-row justify-between lg:px-20 py-12 md:px-12 " >
                 <div className="flex flex-col gap-5 w-72 md:w-[28rem]  " >
                     <div className="text-special lg:text-xl md:text-base text-xs font-semibold ">
                         Our Services

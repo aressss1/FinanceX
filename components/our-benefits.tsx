@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const OurBenefits = () => {
     return ( 
-        <div className="flex flex-col gap-5 md:flex-row justify-between px-2 lg:px-20 py-12 lg:gap-3 md:px-12 md:gap-6 bg-black" >
+        <div className="flex flex-col gap-16 md:flex-row justify-between px-2 lg:px-20 py-12 lg:gap-3 md:px-12 md:gap-6 bg-black" >
             <div className="w-72 md:w-[28rem] flex flex-col gap-8" >
             <div className="text-special text-xs lg:text-xl md:text-base font-semibold">
                 Benefits
