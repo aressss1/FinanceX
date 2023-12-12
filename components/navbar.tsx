@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 const Navbar = () => {
     return ( 
-        <div className="h-[68px] bg-black flex flex-row justify-between items-center px-2 lg:px-20 md:px-12" >
+        <div className="h-[68px] bg-black flex flex-row justify-between items-center px-2 py-2 lg:px-20 md:px-12" >
             <div className="text-white text-xl font-bold">
                 FinanceX
             </div>
