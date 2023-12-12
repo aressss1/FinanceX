@@ -3,12 +3,12 @@ import { Button } from './ui/button';
 
 const Navbar = () => {
     return ( 
-        <div className="h-[68px] bg-black flex flex-row justify-between items-center lg:px-20 md:px-12" >
+        <div className="h-[68px] bg-black flex flex-row justify-between items-center px-8 lg:px-20 md:px-12" >
             <div className="text-white text-xl font-bold">
                 FinanceX
             </div>
-            <div className='hidden md:p-0' >
-                <ul className="text-white text-opacity-70  text-base font-normal flex flex-row gap-10 " >
+            <div >
+                <ul className="text-white text-opacity-70  text-base font-normal hidden  md:flex flex-row gap-10 " >
                     <li>
                         why FinanceX
                     </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 SignUp
                 <MoveRight />
             </Button>
-            <Button className="md:hidden  items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black  " >
+            <Button className="md:hidden  h-10 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black  " >
                 <Menu />
             </Button>
         </div>
