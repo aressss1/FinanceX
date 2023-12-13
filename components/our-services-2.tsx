@@ -51,25 +51,25 @@ const OurServices2 = () => {
                 </div>
             </div>
 
-            <div className=" bg-black  px-2 lg:px-20 lg:py-12 md:px-12 grid grid-cols-3">
+            <div className=" bg-black  px-2 lg:px-20 lg:py-12 md:px-12 flex-flex-row overflow-x-auto no-scrollbar md:grid md:grid-cols-3">
                 {servicesCardContent.map((card) => (
                     <div key={card.id} className="group" >
                         <Card
-                            className=" group-hover:bg-zinc-800 lg:p-6 md:p-4 gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
-                            <CardHeader className=" flex flex-col gap-3 md:p-4 lg:p-6" >
-                                <div className="lg:h-12 lg:w-12 md:h-9 md:w-9 bg-white group-hover:bg-special text-center flex justify-center items-center " >
+                            className=" group-hover:bg-zinc-800 lg:p-6 md:p-4  gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
+                            <CardHeader className=" flex flex-col gap-3 p-2 md:p-4 lg:p-6" >
+                                <div className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-8 h-8 bg-white group-hover:bg-special text-center flex justify-center items-center " >
                                     {card.icon}
                                 </div>
-                                <div className="text-white lg:text-3xl md:text-xl font-bold lg:leading-9 md:leading-7 ">
+                                <div className="text-white lg:text-3xl text-xl  font-bold lg:leading-9 md:leading-7 ">
                                     {card.title}
                                 </div>
                             </CardHeader>
-                            <CardContent className=" text-white text-opacity-70 lg:text-base md:text-sm font-normal leading-normal" >
+                            <CardContent className=" text-white text-opacity-70 p-2 md:p-6 lg:text-base md:text-sm text-xs font-normal leading-normal" >
                                 {card.description}
                             </CardContent>
-                            <CardFooter className="flex justify-start gap-2 text-white md:text-base lg:text-lg" >
+                            <CardFooter className="flex justify-start gap-2 p-2 md:p-6 text-white text-xs md:text-base lg:text-lg" >
                                 Learn More
-                                <MoveRight className="md:h-3 "  />
+                                <MoveRight className="h-3"  />
                             </CardFooter>
                         </Card>
                     </div>
