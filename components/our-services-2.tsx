@@ -29,13 +29,13 @@ const OurServices2 = () => {
         <>
             <div className="bg-black  flex flex-col gap-16 px-2 md:flex-row justify-between lg:px-20 py-12 md:px-12 " >
                 <div className="flex flex-col gap-5 w-72 md:w-[28rem]  " >
-                    <div className="text-special lg:text-xl md:text-base text-xs font-semibold ">
+                    <div className="text-special lg:text-xl md:text-base text-xs font-semibold roboto ">
                         Our Services
                     </div>
                     <div>
-                        <span className="text-white lg:text-5xl md:text-4xl text-xl font-bold ">Real Time </span><span className="text-special lg:text-5xl md:text-4xl text-xl font-bold ">Transaction Report</span>
+                        <span className="text-white lg:text-5xl md:text-4xl text-xl font-bold roboto ">Real Time </span><span className="text-special lg:text-5xl md:text-4xl text-xl font-bold roboto ">Transaction Report</span>
                     </div>
-                    <div className=" text-white text-opacity-70 md:text-base text-xs font-normal leading-normal ">
+                    <div className=" text-white text-opacity-70 md:text-base text-xs font-normal leading-normal rubik ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
                     </div>
                     <Button variant="special" >
@@ -60,14 +60,14 @@ const OurServices2 = () => {
                                 <div className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-8 h-8 bg-white group-hover:bg-special text-center flex justify-center items-center " >
                                     {card.icon}
                                 </div>
-                                <div className="text-white lg:text-3xl text-xl  font-bold lg:leading-9 md:leading-7 ">
+                                <div className="text-white lg:text-3xl text-xl  font-bold lg:leading-9 md:leading-7 roboto ">
                                     {card.title}
                                 </div>
                             </CardHeader>
-                            <CardContent className=" text-white text-opacity-70 p-2 md:p-6 lg:text-base md:text-sm text-xs font-normal leading-normal" >
+                            <CardContent className=" text-white text-opacity-70 p-2 md:p-6 lg:text-base md:text-sm text-xs font-normal leading-normal rubik " >
                                 {card.description}
                             </CardContent>
-                            <CardFooter className="flex justify-start gap-2 p-2 md:p-6 text-white text-xs md:text-base lg:text-lg" >
+                            <CardFooter className="flex justify-start gap-2 p-2 md:p-6 text-white text-xs md:text-base lg:text-lg roboto " >
                                 Learn More
                                 <MoveRight className="h-3"  />
                             </CardFooter>

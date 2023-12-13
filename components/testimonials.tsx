@@ -57,10 +57,10 @@ const Testimonials = () => {
         <div className="bg-special md:py-20 py-12  " >
             <div className="lg:px-20 md:px-12 px-2 pb-14 flex flex-row justify-between items-center " >
                 <div className=" flex flex-col md:gap-5 gap-4" >
-                    <div className="text-neutral-900 lg:text-xl text-base  font-semibold ">
+                    <div className="text-neutral-900 lg:text-xl text-base  font-semibold roboto ">
                         Our Services
                     </div>
-                    <div className=" text-neutral-900 lg:text-7xl md:text-5xl text-2xl font-bold  lg:leading-[4.5rem] md:leading-[3.25rem] leading-8 ">
+                    <div className=" text-neutral-900 lg:text-7xl md:text-5xl text-2xl font-bold  lg:leading-[4.5rem] md:leading-[3.25rem] leading-8  roboto">
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Testimonials = () => {
             <div className='hidden md:flex items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
                 {reviews.slice(startIndex, startIndex + 3).map((review, index) => (
                     <Card key={review.name} className="bg-black lg:w-96 w-56 border-none flex flex-col  rounded-none lg:p-10 md:p-2 p-2 lg:gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
-                        <CardContent className=" text-white text-sm lg:p-6 md:p-4 p-2 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed" >
+                        <CardContent className=" text-white text-sm lg:p-6 md:p-4 p-2 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed rubik " >
                             {review.review}
                         </CardContent>
                         <CardFooter className="flex flex-row lg:p-6 md:p-4 p-2 justify-start gap-4 " >
@@ -94,10 +94,10 @@ const Testimonials = () => {
                                 alt='client'
                             />
                             <div className='flex flex-col gap-2' >
-                                <div className="text-white text-sm font-bold ">
+                                <div className="text-white text-sm font-bold roboto ">
                                     {review.name}
                                 </div>
-                                <div className="text-white text-opacity-70 text-xs font-normal ">
+                                <div className="text-white text-opacity-70 text-xs font-normal roboto ">
                                     {review.role}
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ const Testimonials = () => {
             <div className=' md:hidden flex flex-row overflow-x-auto no-scrollbar  gap-6 px-2'>
                 {reviews.map((review) => (
                     <Card key={review.name} className="bg-black  h-[263px] border-none flex flex-col  rounded-none  p-2 " >
-                        <CardContent className="  text-white w-52 text-sm p-2 font-normal" >
+                        <CardContent className="  text-white w-52 text-sm p-2 font-normal rubik " >
                             {review.review}
                         </CardContent>
                         <CardFooter className="flex flex-row p-2 justify-start gap-4 " >
@@ -120,10 +120,10 @@ const Testimonials = () => {
                                 alt='client'
                             />
                             <div className='flex flex-col gap-2' >
-                                <div className="text-white text-sm font-bold ">
+                                <div className="text-white text-sm font-bold roboto ">
                                     {review.name}
                                 </div>
-                                <div className="text-white text-opacity-70 text-xs font-normal ">
+                                <div className="text-white text-opacity-70 text-xs font-normal roboto ">
                                     {review.role}
                                 </div>
                             </div>

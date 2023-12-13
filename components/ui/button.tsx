@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        special: "w-28 px-5 text-sm gap-2 lg:w-56 lg:h-16 md:w-40 md:h-12 lg:px-11 lg:py-5  md:px-8 md:py-4 md:text-xs md:gap-3  lg:text-sm  bg-special rounded-none hover:bg-lime-600 text-black items-center lg:gap-5 inline-flex"
+        special: "w-28 px-5 text-sm gap-2 lg:w-56 lg:h-16 md:w-40 md:h-12 lg:px-11 lg:py-5  md:px-8 md:py-4 md:text-xs md:gap-3  lg:text-sm  bg-special rounded-none hover:bg-lime-600 text-black items-center lg:gap-5 inline-flex roboto "
       },
       size: {
         default: "h-10 px-4 py-2",
