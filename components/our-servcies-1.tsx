@@ -40,7 +40,7 @@ const OurServices1 = () => {
     ]
 
     return (
-        <div className="lg:px-20 py-20 md:px-12  bg-black grid overflow-x-auto md:grid-cols-3 ">
+        <div className="lg:px-20 py-20 md:px-12  bg-black flex flex-row overflow-x-auto md:grid md:grid-cols-3 ">
             <div className="flex flex-col gap-6 " >
                 <div className="text-special  lg:text-xl md:text-base text-xs font-semibold ">
                     Our Services
@@ -62,7 +62,7 @@ const OurServices1 = () => {
                                 {card.title}
                             </div>
                         </CardHeader>
-                        <CardContent className=" lg:py-5  text-white text-opacity-70 lg:text-base md:text-sm text-xs md:py-4 p-0 md:p-1 lg:p-6 font-normal leading-normal" >
+                        <CardContent className=" lg:py-5  text-white text-opacity-70 lg:text-base md:text-sm text-xs md:py-4 p-2 md:p-1 lg:p-6 font-normal leading-normal" >
                             {card.description}
                         </CardContent>
                         <CardFooter className=" flex pt-3 md:p-0 lg:p-6  justify-end" >
