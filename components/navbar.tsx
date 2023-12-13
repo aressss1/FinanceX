@@ -2,12 +2,7 @@ import { Menu, MoveRight } from 'lucide-react';
 import { Button } from './ui/button';
 import {
     Sheet,
-    SheetClose,
     SheetContent,
-    SheetDescription,
-    SheetFooter,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
 
@@ -45,9 +40,9 @@ const Navbar = () => {
                         <Menu />
                     </Button>
                 </SheetTrigger>
-                <SheetContent>
-                    <div className='flex flex-col gap-4 ' >
-                        <ul className="text-white text-opacity-70  text-base font-normal flex flex-col gap-10 " >
+                <SheetContent className='bg-black' >
+                    <div className='flex flex-col gap-4 mt-9' >
+                        <ul className="text-white text-opacity-70  text-base font-normal flex flex-col gap-6 " >
                             <li>
                                 why FinanceX
                             </li>
@@ -61,7 +56,7 @@ const Navbar = () => {
                                 Blog
                             </li>
                         </ul>
-                        <Button className="hidden  md:flex flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black  " >
+                        <Button className="flex flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black " >
                             SignUp
                             <MoveRight />
                         </Button>
