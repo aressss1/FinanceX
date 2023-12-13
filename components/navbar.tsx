@@ -41,7 +41,7 @@ const Navbar = () => {
                     </Button>
                 </SheetTrigger>
                 <SheetContent >
-                    <div className='flex flex-col gap-4 mt-9' >
+                    <div className='flex flex-col gap-12 mt-9' >
                         <ul className="text-white text-opacity-70  text-base font-normal flex flex-col gap-6 " >
                             <li>
                                 why FinanceX
@@ -56,7 +56,7 @@ const Navbar = () => {
                                 Blog
                             </li>
                         </ul>
-                        <Button className="flex flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black " >
+                        <Button className="flex w-[111px] flex-row gap-2 items-center justify-center rounded-none bg-special hover:bg-lime-600 text-black " >
                             SignUp
                             <MoveRight />
                         </Button>
