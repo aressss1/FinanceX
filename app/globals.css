@@ -85,4 +85,12 @@
       -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
 }
+
+.rubik {
+  font-family: var(--font-rubik);
+}
+
+.roboto {
+  font-family: var(--font-roboto);
+}
 }

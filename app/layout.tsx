@@ -1,8 +1,18 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Rubik , Roboto  } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const rubik = Rubik({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-rubik",
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-roboto",
+});
 
 export const metadata: Metadata = {
   title: 'FinanceX',
@@ -16,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${rubik.variable} ${roboto.variable} `}>{children}</body>
     </html>
   )
 }
