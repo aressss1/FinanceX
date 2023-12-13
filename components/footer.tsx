@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
             </div>
             <Separator  className=' text-white text-opacity-70 '/>
-            <div className="p-3 text-center text-white text-opacity-70 text-base  font-medium ">
+            <div className="p-3 text-center text-white text-opacity-70 md:text-base text-xs  font-medium ">
                 Copyright &copy; FinanceX 2022. All Rights Reserved.
             </div>
         </div>

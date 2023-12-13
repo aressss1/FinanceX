@@ -54,13 +54,13 @@ const Testimonials = () => {
 
 
     return (
-        <div className="bg-special py-20  " >
+        <div className="bg-special md:py-20 py-12  " >
             <div className="lg:px-20 md:px-12 px-2 pb-14 flex flex-row justify-between items-center " >
-                <div className=" flex flex-col gap-5" >
-                    <div className="text-neutral-900 lg:text-xl md:text-base text-xs font-semibold ">
+                <div className=" flex flex-col md:gap-5 gap-4" >
+                    <div className="text-neutral-900 lg:text-xl text-base  font-semibold ">
                         Our Services
                     </div>
-                    <div className=" text-neutral-900 lg:text-7xl md:text-5xl text-xl font-bold  lg:leading-[4.5rem] md:leading-[3.25rem] leading-8 ">
+                    <div className=" text-neutral-900 lg:text-7xl md:text-5xl text-2xl font-bold  lg:leading-[4.5rem] md:leading-[3.25rem] leading-8 ">
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
