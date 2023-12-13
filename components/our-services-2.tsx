@@ -51,7 +51,7 @@ const OurServices2 = () => {
                 </div>
             </div>
 
-            <div className=" bg-black px-2 lg:px-20 lg:py-12 md:px-12 flex flex-row gap-4 md:gap-0 overflow-x-auto no-scrollbar md:grid md:grid-cols-3">
+            <div className=" bg-black px-2 lg:px-20 lg:py-12 md:px-12 flex flex-row gap-1 md:gap-0 overflow-x-auto no-scrollbar md:grid md:grid-cols-3 pb-6 md:pb-0">
                 {servicesCardContent.map((card) => (
                     <div key={card.id} className="group" >
                         <Card
