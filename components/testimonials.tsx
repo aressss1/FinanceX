@@ -1,23 +1,23 @@
-'use client'
+// 'use client'
 
 import { ArrowRight, ArrowLeft } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardFooter } from './ui/card';
 import Image from 'next/image';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Testimonials = () => {
-    const [startIndex, setStartIndex] = useState(0);
+    // const [startIndex, setStartIndex] = useState(0);
 
-    const handleNext = () => {
-        const newStartIndex = Math.min(startIndex + 1, reviews.length - 3);
-        setStartIndex(newStartIndex);
-    };
+    // const handleNext = () => {
+    //     const newStartIndex = Math.min(startIndex + 1, reviews.length - 3);
+    //     setStartIndex(newStartIndex);
+    // };
 
-    const handlePrev = () => {
-        const newStartIndex = Math.max(startIndex - 1, 0);
-        setStartIndex(newStartIndex);
-    };
+    // const handlePrev = () => {
+    //     const newStartIndex = Math.max(startIndex - 1, 0);
+    //     setStartIndex(newStartIndex);
+    // };
 
     const reviews = [
         {
@@ -64,24 +64,24 @@ const Testimonials = () => {
                         Global businesses <br /> love FinanceX
                     </div>
                 </div>
-                <div className='hidden  md:flex flex-row items-center gap-5 justify-end' >
-                <Button
-                    onClick={handlePrev}
-                    disabled={startIndex === 0}
-                    className='w-14 h-14 rounded-full bg-special border border-black ' >
-                    <ArrowLeft className='text-black' />
-                </Button>
-                <Button
-                    onClick={handleNext}
-                    disabled={startIndex === reviews.length - 3}
-                    className='w-14 h-14 rounded-full bg-black  ' >
-                    <ArrowRight className='text-white' />
-                </Button>
+                {/* <div className='hidden  md:flex flex-row items-center gap-5 justify-end' >
+                    <Button
+                        onClick={handlePrev}
+                        disabled={startIndex === 0}
+                        className='w-14 h-14 rounded-full bg-special border border-black ' >
+                        <ArrowLeft className='text-black' />
+                    </Button>
+                    <Button
+                        onClick={handleNext}
+                        disabled={startIndex === reviews.length - 3}
+                        className='w-14 h-14 rounded-full bg-black  ' >
+                        <ArrowRight className='text-white' />
+                    </Button>
+                </div> */}
             </div>
-            </div>
-            
+
             {/* for MID & LARGE devices */}
-            <div className='hidden md:flex items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
+            {/* <div className='hidden md:flex items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
                 {reviews.slice(startIndex, startIndex + 3).map((review, index) => (
                     <Card key={review.name} className="bg-black lg:w-96 w-56 border-none flex flex-col  rounded-none lg:p-10 md:p-2 p-2 lg:gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
                         <CardContent className=" text-white text-sm lg:p-6 md:p-4 p-2 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed" >
@@ -104,7 +104,7 @@ const Testimonials = () => {
                         </CardFooter>
                     </Card>
                 ))}
-            </div>
+            </div> */}
 
             {/* for Small Devices */}
             <div className=' md:hidden flex flex-row overflow-x-auto items-center no-scrollbar justify-center gap-6 '>
