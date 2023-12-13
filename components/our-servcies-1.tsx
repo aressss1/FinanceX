@@ -40,7 +40,7 @@ const OurServices1 = () => {
     ]
 
     return (
-        <div className="lg:px-20 py-20 md:px-12 px-2  bg-black flex flex-row overflow-x-auto gap-5 md:gap-0 md:grid md:grid-cols-3 snap-x ">
+        <div className="lg:px-20 py-20 md:px-12 px-2  bg-black flex flex-row overflow-x-auto gap-5 md:gap-0 md:grid md:grid-cols-3 snap-x no-scrollbar">
             <div className="flex flex-col gap-6 " >
                 <div className="text-special  lg:text-xl md:text-base text-xs font-semibold ">
                     Our Services
