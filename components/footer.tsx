@@ -6,7 +6,7 @@ import { Separator } from './ui/separator';
 const Footer = () => {
     return (
         <div className="bg-black" >
-            <div className="lg:px-20 py-14 md:px-12 px-2 grid grid-cols-2 md:grid-cols-4 gap-1" >
+            <div className="lg:px-20 py-14 md:px-12 px-2 grid grid-cols-2 md:grid-cols-4 gap-12" >
                 <div className="flex flex-col lg:gap-4 gap-3 " >
                     <div className="text-white lg:text-xl md:text-base text-sm font-bold">
                         FinanceX
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col lg:gap-4 gap-3' >
+                <div className='flex flex-col lg:gap-4 gap-3 col-span-3' >
                     <div className="text-white text-opacity-70 lg:text-xl md:text-base text-sm font-bold  leading-normal">
                         Join Our Newsletter
                     </div>
