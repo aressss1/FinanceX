@@ -107,15 +107,15 @@ const Testimonials = () => {
             </div>
 
             {/* for Small Devices */}
-            <div className='flex md:hidden items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
+            <div className=' md:hidden flex flex-row overflow-x-auto items-center  no-scrollbar justify-center gap-6 '>
                 {reviews.map((review) => (
-                    <Card key={review.name} className="bg-black lg:w-96 w-56 border-none flex flex-col  rounded-none lg:p-10 md:p-2 p-2 lg:gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
-                        <CardContent className=" text-white text-sm lg:p-6 md:p-4 p-2 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed" >
+                    <Card key={review.name} className="bg-black w-52 border-none flex flex-col  rounded-none  p-2  transition-all duration-500 transform hover:scale-105 " >
+                        <CardContent className=" text-white text-sm p-2 font-normal" >
                             {review.review}
                         </CardContent>
-                        <CardFooter className="flex flex-row lg:p-6 md:p-4 p-2 justify-start gap-4 " >
+                        <CardFooter className="flex flex-row p-2 justify-start gap-4 " >
                             <Image
-                                className='w-10 h-10  md:w-12 md:h-12  rounded-full'
+                                className='w-10 h-10  rounded-full'
                                 src={review.imgSrc}
                                 alt='client'
                             />
