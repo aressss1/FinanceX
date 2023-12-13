@@ -107,9 +107,9 @@ const Testimonials = () => {
             </div>
 
             {/* for Small Devices */}
-            <div className=' md:hidden flex flex-row overflow-x-auto items-center  no-scrollbar justify-center gap-6 '>
+            <div className=' md:hidden flex flex-col overflow-x-auto items-center no-scrollbar justify-center gap-6 '>
                 {reviews.map((review) => (
-                    <Card key={review.name} className="bg-black w-52 border-none flex flex-col  rounded-none  p-2  transition-all duration-500 transform hover:scale-105 " >
+                    <Card key={review.name} className="bg-black w-52 border-none flex flex-col  rounded-none  p-2 transform hover:scale-105 " >
                         <CardContent className=" text-white text-sm p-2 font-normal" >
                             {review.review}
                         </CardContent>
