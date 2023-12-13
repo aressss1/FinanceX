@@ -51,11 +51,11 @@ const OurServices2 = () => {
                 </div>
             </div>
 
-            <div className=" bg-black  px-2 lg:px-20 lg:py-12 md:px-12 flex flex-row overflow-x-auto no-scrollbar md:grid md:grid-cols-3">
+            <div className=" bg-black px-2 lg:px-20 lg:py-12 md:px-12 flex flex-row gap-4 md:gap-0 overflow-x-auto no-scrollbar md:grid md:grid-cols-3">
                 {servicesCardContent.map((card) => (
                     <div key={card.id} className="group" >
                         <Card
-                            className=" group-hover:bg-zinc-800 lg:p-6 md:p-4 gap-1 md:gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
+                            className=" w-52 md:w-auto group-hover:bg-zinc-800 lg:p-6 md:p-4 gap-1 md:gap-3 bg-black flex flex-col border border-zinc-800 rounded-none " >
                             <CardHeader className=" flex flex-col gap-1 md:gap-3 p-2 md:p-4 lg:p-6" >
                                 <div className="lg:h-12 lg:w-12 md:h-9 md:w-9 w-8 h-8 bg-white group-hover:bg-special text-center flex justify-center items-center " >
                                     {card.icon}
