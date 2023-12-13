@@ -25,7 +25,7 @@ const Footer = () => {
                     <div className="text-white text-opacity-70 lg:text-xl md:text-base text-sm font-bold">
                         Company
                     </div>
-                    <div className="text-white flex flex-col gap-4 text-opacity-70 lg:text-base md:text-sm text-sm font-normal leading-normal">
+                    <div className="text-white flex flex-col gap-4 text-opacity-70 lg:text-base md:text-sm text-xs font-normal leading-normal">
                         <p>About Us</p>
                         <p>Careers</p>
                         <p>Blog</p>
@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="text-white text-opacity-70 lg:text-xl md:text-base text-sm font-bold">
                         Resources
                     </div>
-                    <div className="text-white flex flex-col gap-4 text-opacity-70 lg:text-base md:text-sm text-sm font-normal leading-normal">
+                    <div className="text-white flex flex-col gap-4 text-opacity-70 lg:text-base md:text-sm text-xs font-normal leading-normal">
                         <p>Templates</p>
                         <p>Tutorials</p>
                         <p>Free Resources</p>
