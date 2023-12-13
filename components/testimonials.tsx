@@ -80,8 +80,35 @@ const Testimonials = () => {
             </div>
             </div>
             
-            <div className='flex items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
+            {/* for MID & LARGE devices */}
+            <div className='hidden md:flex items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
                 {reviews.slice(startIndex, startIndex + 3).map((review, index) => (
+                    <Card key={review.name} className="bg-black lg:w-96 w-56 border-none flex flex-col  rounded-none lg:p-10 md:p-2 p-2 lg:gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
+                        <CardContent className=" text-white text-sm lg:p-6 md:p-4 p-2 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed" >
+                            {review.review}
+                        </CardContent>
+                        <CardFooter className="flex flex-row lg:p-6 md:p-4 p-2 justify-start gap-4 " >
+                            <Image
+                                className='w-10 h-10  md:w-12 md:h-12  rounded-full'
+                                src={review.imgSrc}
+                                alt='client'
+                            />
+                            <div className='flex flex-col gap-2' >
+                                <div className="text-white text-sm font-bold ">
+                                    {review.name}
+                                </div>
+                                <div className="text-white text-opacity-70 text-xs font-normal ">
+                                    {review.role}
+                                </div>
+                            </div>
+                        </CardFooter>
+                    </Card>
+                ))}
+            </div>
+
+            {/* for Small Devices */}
+            <div className='flex md:hidden items-center overflow-x-auto no-scrollbar justify-center gap-6 '>
+                {reviews.map((review) => (
                     <Card key={review.name} className="bg-black lg:w-96 w-56 border-none flex flex-col  rounded-none lg:p-10 md:p-2 p-2 lg:gap-5 md:gap-4 transition-all duration-500 transform hover:scale-105 " >
                         <CardContent className=" text-white text-sm lg:p-6 md:p-4 p-2 md:pt-1 font-normal  lg:leading-loose md:leading-relaxed" >
                             {review.review}
