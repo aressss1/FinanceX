@@ -40,7 +40,7 @@ const OurServices1 = () => {
     ]
 
     return (
-        <div className="lg:px-20 py-20 md:px-12  bg-black grid grid-col overflow-x-auto md:grid-cols-3 ">
+        <div className="lg:px-20 py-20 md:px-12  bg-black grid grid-row overflow-x-auto md:grid-cols-3 ">
             <div className="flex flex-col gap-6 " >
                 <div className="text-special  lg:text-xl md:text-base text-xs font-semibold ">
                     Our Services
@@ -56,7 +56,7 @@ const OurServices1 = () => {
                 <div key={card.id} className="group" >
                     <Card
                         className=" group-hover:bg-zinc-800 lg:px-6 lg:py-5 md:px-4 md:py-4 bg-black flex flex-col border border-zinc-800 rounded-none " >
-                        <CardHeader className=" flex flex-col gap-4 md:p-1 lg:p-6"  >
+                        <CardHeader className=" flex flex-col gap-0 md:gap-4 p-2 md:p-1 lg:p-6"  >
                             <Minus className=" text-white " />
                             <div className="w-64 text-white lg:text-2xl md:text-lg text-xl font-medium ">
                                 {card.title}
