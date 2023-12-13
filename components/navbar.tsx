@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Menu />
                     </Button>
                 </SheetTrigger>
-                <SheetContent className='bg-black' >
+                <SheetContent >
                     <div className='flex flex-col gap-4 mt-9' >
                         <ul className="text-white text-opacity-70  text-base font-normal flex flex-col gap-6 " >
                             <li>
