@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col lg:gap-4 gap-3 col-span-3' >
+                <div className='flex flex-col lg:gap-4 gap-3 col-span-2 md:col-span-1' >
                     <div className="text-white text-opacity-70 lg:text-xl md:text-base text-sm font-bold  leading-normal">
                         Join Our Newsletter
                     </div>
