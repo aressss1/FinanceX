@@ -40,7 +40,7 @@ const OurServices1 = () => {
     ]
 
     return (
-        <div className="lg:px-20 py-20 md:px-12 px-2  bg-black flex flex-row overflow-x-auto gap-24 md:gap-0 md:grid md:grid-cols-3 ">
+        <div className="lg:px-20 py-20 md:px-12 px-2  bg-black flex flex-row overflow-x-auto gap-5 md:gap-0 md:grid md:grid-cols-3 ">
             <div className="flex flex-col gap-6 " >
                 <div className="text-special  lg:text-xl md:text-base text-xs font-semibold ">
                     Our Services
@@ -53,7 +53,7 @@ const OurServices1 = () => {
                 </Button>
             </div>
             {servicesCardContent.map((card) => (
-                <div key={card.id} className="group" >
+                <div key={card.id} className="group pl-16 md:pl-0 " >
                     <Card
                         className=" group-hover:bg-zinc-800 lg:px-6 lg:py-5 md:px-4 md:py-4 bg-black flex flex-col border border-zinc-800 rounded-none " >
                         <CardHeader className=" flex flex-col gap-0 md:gap-4 p-2 md:p-1 lg:p-6"  >
