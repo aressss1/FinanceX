@@ -1,36 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Landing Page Developed with NextJs , TailwindCSS & ShadcnUI
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot (326)](https://github.com/aressss1/FinanceX/assets/127649710/845dea40-5519-4bea-9399-f35d50063b68)
+![Screenshot (327)](https://github.com/aressss1/FinanceX/assets/127649710/cdb6cae0-dd75-4239-a5df-2c6182e88997)
+![Screenshot (328)](https://github.com/aressss1/FinanceX/assets/127649710/e0e952ee-c4e3-4296-84c1-00ca40448002)
+![Screenshot (329)](https://github.com/aressss1/FinanceX/assets/127649710/cc05955b-ac3b-4aa4-b2a9-0db87f7d1a88)
+![Screenshot (330)](https://github.com/aressss1/FinanceX/assets/127649710/2626eabf-4b01-4780-ac28-c5165722e136)
+![Screenshot (331)](https://github.com/aressss1/FinanceX/assets/127649710/33f0f5c3-fd24-4a11-a86c-1607f64c51d0)
